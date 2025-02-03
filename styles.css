@@ -1,11 +1,28 @@
 * {
-    width:auto !important;
+    width: auto !important;
     height: auto;
 }
 
 .body-container {
     margin: 0 auto;
     max-width: 1200px;
+}
+
+.ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.li {
+    margin: 0 20px;
+    display: inline;
+    font-size: 24px;
+    color: #28CB8B;
+    transition: color 0.3s;
+    cursor: pointer;
 }
 
 .h1 {
@@ -27,11 +44,28 @@
 
 .navbar {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
     background-color: #ABBED1;
     padding: 24px;
     font-size: 18px;
     flex-wrap: wrap;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
 }
 
 .hero-container {
@@ -39,23 +73,21 @@
     padding: 20px;
     font-weight: 600;
     font-size: 24px;
-
 }
 
 .icon {
-    width: 100px;
-    height: 100px;
+    width: 65px;
+    height: 40px;
     justify-content: space-between;
 }
 
-.image {
+.image-1 {
     box-shadow: 8px, #ABBED1;
-    width: 100%;
-    height: 100%;
+    width: 75%;
+    height: 25%;
     display: block;
     margin: 20px auto;
     border-radius: 50%;
-    
 }
 
 .button {
@@ -64,10 +96,10 @@
     text-align: center;
     font-size: 18px;
     border-radius: 50%;
+}
 
-    &:hover {
-        background-color: #FFFFFF;
-    }
+.button:hover {
+    background-color: #FFFFFF;
 }
 
 .button-8 {
@@ -87,14 +119,30 @@
     border-bottom: 1px solid #ABBED1;
     padding-top: 20px;
     padding-bottom: 20px;
-
 }
-
 
 .footer {
     background-color: #263238;
     color: #fff;
     padding: 10px;
-    text-align: right; 
-    font-size: 18px;
+    text-align: center;
+    justify-items: center;
+    
+}
+
+.footer-column ul {
+    list-style-type: column;
+    padding: 0;
+    font-size: 26px;
+
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: space-between;
 }
