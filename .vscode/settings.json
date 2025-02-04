@@ -1,0 +1,94 @@
+{
+    "cds-lint.settings.diagnostic": false,
+    "cds-lint.settings.gitignore": true,
+    "cds-lint.settings.selectedFiles": [
+        {
+            "id": "1",
+            "name": "styles.css",
+            "path": "/home/isaac/Newaap/styles.css",
+            "fileType": "css"
+        }
+    ],
+    "cds-lint.settings.autocompleteData": [
+        {
+            "id": "1",
+            "dataset": {
+                "variables": [],
+                "classes": [
+                    {
+                        "key": "body-container",
+                        "value": ".body-container {\n    margin: 0 auto;\n    max-width: 1200px;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding: 20px;\n    background-color: #F5F5F5;\n}"
+                    },
+                    {
+                        "key": "ul",
+                        "value": ".ul {\n    display: flex;\n    justify-content: space-between;\n    list-style-type: none;\n    padding: 0;\n    margin: 0;\n}"
+                    },
+                    {
+                        "key": "li",
+                        "value": ".li {\n    margin: 0 20px;\n    display: inline;\n    font-size: 24px;\n    color: #28CB8B;\n    transition: color 0.3s;\n    cursor: pointer;\n}"
+                    },
+                    {
+                        "key": "h1",
+                        "value": ".h1 {\n    display: flex;\n    background-color: #ABBED1;\n    padding: 76px;\n    text-align: center;\n    font-size: 64px;\n    text-transform: uppercase;\n}"
+                    },
+                    {
+                        "key": "h2",
+                        "value": ".h2 {\n    display: flex;\n    -color: #28CB8B;\n    padding: 76px;\n    text-align: center;\n    font-size: 48px;\n}"
+                    },
+                    {
+                        "key": "navbar",
+                        "value": ".navbar {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    background-color: #ABBED1;\n    padding: 24px;\n    font-size: 18px;\n    flex-wrap: wrap;\n}"
+                    },
+                    {
+                        "key": "navbar-nav",
+                        "value": ".navbar-nav {\n    display: flex;\n    list-style-type: none;\n    padding: 0;\n    margin: 0;\n}"
+                    },
+                    {
+                        "key": "nav-item",
+                        "value": ".nav-item {\n    margin: 0 10px;\n}"
+                    },
+                    {
+                        "key": "nav-link",
+                        "value": ".nav-link {\n    text-decoration: none;\n    color: black;\n}"
+                    },
+                    {
+                        "key": "hero-container",
+                        "value": ".hero-container {\n    background-color: #ABBED1;\n    padding: 20px;\n    font-weight: 600;\n    font-size: 24px;\n}"
+                    },
+                    {
+                        "key": "icon",
+                        "value": ".icon {\n    width: 65px;\n    height: 40px;\n    justify-content: space-between;\n}"
+                    },
+                    {
+                        "key": "image-1",
+                        "value": ".image-1 {\n    box-shadow: 8px, #ABBED1;\n    width: 75%;\n    height: 25%;\n    display: block;\n    margin: 20px auto;\n    border-radius: 50%;\n    position: absolute;\n}"
+                    },
+                    {
+                        "key": "button",
+                        "value": ".button {\n    background-color: #28CB8B;\n    padding: 10px;\n    text-align: center;\n    font-size: 18px;\n    border-radius: 50%;\n}"
+                    },
+                    {
+                        "key": "button-8",
+                        "value": ".button-8 {\n    background-color: #28CB8B;\n    font-style: #FFFFFF;\n    padding: 10px 20px;\n    border-radius: 50%;\n}"
+                    },
+                    {
+                        "key": "p",
+                        "value": ".p {\n    margin: 20px;\n    font-size: 18px;\n    line-height: 1.5;\n    text-align: justify;\n    font-weight: 400;\n    border-top: 1px solid #ABBED1;\n    border-bottom: 1px solid #ABBED1;\n    padding-top: 20px;\n    padding-bottom: 20px;\n}"
+                    },
+                    {
+                        "key": "footer",
+                        "value": ".footer {\n    background-color: #263238;\n    color: #fff;\n    padding: 10px;\n    text-align: center;\n    justify-items: center;\n    \n}"
+                    },
+                    {
+                        "key": "footer-column",
+                        "value": ".footer-column ul {\n    list-style-type: column;\n    padding: 0;\n    font-size: 26px;\n\n}"
+                    },
+                    {
+                        "key": "flex-end",
+                        "value": ".flex-end {\n    display: flex;\n    justify-content: space-between;\n}"
+                    }
+                ]
+            }
+        }
+    ]
+}
